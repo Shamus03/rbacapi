@@ -58,7 +58,7 @@ func getAllInheritedRoles(roles map[Role]bool, output map[Role]bool) {
 		if !exists {
 			output[role] = true
 			
-			inheritedRoles := repository.RolesInheritedFromRole(role)
+			inheritedRoles := repository.ParentRolesForRole(role)
 			getAllInheritedRoles(inheritedRoles, output)
 		}
 	}
