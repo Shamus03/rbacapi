@@ -1,2 +1,3 @@
 beAwesomeAndCool,awesomeAndCoolKeyset
 doProgrammerAndAnalystThings,programmerAndAnalystKeyset
+somePermissionEveryoneHas,keysetWithNoRequiredRoles // example of a keyset that grants EVERYONE a permission (since there are no required roles)
