@@ -15,7 +15,7 @@ func LoadData() {
 	kra = loadKRA("data/KRA.csv")
 	pka = loadPKA("data/PKA.csv")
 	pra = loadPRA("data/PRA.csv")
-	rra = loadRRA("data/PKA.csv")
+	rra = loadRRA("data/RRA.csv")
 	ura = loadURA("data/URA.csv")
 }
 
