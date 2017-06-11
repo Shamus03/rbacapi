@@ -63,7 +63,7 @@ var routes = Routes{
 		GetRolesRequiredForKeysetHandler,
 	},
 	Route{
-		"PutPermissionForKeyset",
+		"PutRoleRequiredForKeyset",
 		"PUT",
 		"/keyset/{keyset}/roles/{role}/{value}",
 		PutRoleRequiredForKeysetHandler,
